@@ -1,0 +1,36 @@
+body{
+     margin: 0;
+     padding: 0;
+ }
+.screen3 .screen3-bg1,.screen3-bg2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    color: #444;
+    margin-bottom:80px;
+}
+.screen3 .screen3-bg1,.screen3-bg2 h2{
+    padding: 72px 0 16px;
+    font-size:46px;
+    letter-spacing: 2px;
+    line-height: 56px;
+}
+.screen3 .screen3-bg1 img{
+    margin-top: 20px;
+}
+.screen3 .screen3-bg1,.screen3-bg2 p{
+    line-height:36px;
+    text-align: center;
+    font-size:18px;
+}
+.screen3 .screen3-bg2{
+    background: #f7f7f7;
+    width: 100%;
+    height: auto;
+}
+.screen3 .screen3-bg2 a{
+    text-decoration: none;
+    cursor: pointer;
+}
