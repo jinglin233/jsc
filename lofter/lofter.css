@@ -11,18 +11,24 @@ body{
     color: #444;
     margin-bottom:80px;
 }
-.screen3 .screen3-bg1,.screen3-bg2 h2{
+.screen3 h2{
     padding: 72px 0 16px;
     font-size:46px;
+    font-weight:normal;
     letter-spacing: 2px;
     line-height: 56px;
+}
+.screen3 h3{
+    font-size:28px;
+    font-weight:normal;
+    text-align: center;
 }
 .screen3 .screen3-bg1 img{
     margin-top: 20px;
 }
-.screen3 .screen3-bg1,.screen3-bg2 p{
+.screen3 .screen3-bg1 p{
     line-height:36px;
-    text-align: center;
+    text-align: left;
     font-size:18px;
 }
 .screen3 .screen3-bg2{
@@ -44,6 +50,27 @@ body{
     flex-flow: row wrap;
 }
 .screen3 .screen3-bg2 .special li{
-    width: 400px;
+    width: 350px;
+    margin: 30px 5px;
     display: flex;
+    flex-flow: column;
+
+}
+.screen3 .screen3-bg2 .special li i{
+    margin: 0 auto;
+}
+.screen3 .screen3-bg2 .special li p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+}
+.screen3-icon1{
+    width:92px;
+    height:90px;
+    background:url("./image/icon-screen3.png") no-repeat -103px 0;
+}
+.screen3-icon2{
+    width:92px;
+    height:90px;
+    background:url("./image/icon-screen3.png") no-repeat 0 0;
 }
