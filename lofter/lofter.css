@@ -45,4 +45,5 @@ body{
 }
 .screen3 .screen3-bg2 .special li{
     width: 400px;
+    display: flex;
 }
