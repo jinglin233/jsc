@@ -1,6 +1,7 @@
 body{
      margin: 0;
      padding: 0;
+    color: #444;
  }
 
 .box1{
@@ -42,6 +43,7 @@ body{
 .icon1 h3{
     text-align: center ;
     font-size: 30px;
+    font-weight:normal;
 }
 .icon1 p{
     font-size: 14px;
@@ -61,7 +63,7 @@ body{
 
 .screen2-B-bg{
     height: 630px;
-    background: url("/jsc/images/quanzi.jpg") no-repeat center top;
+    background: url("/jsc/images/lofter/quanzi.jpg") no-repeat center top;
     background-size: cover ;
 }
 .srceen2-B{
@@ -73,7 +75,6 @@ body{
     align-items: center;
     width: 100%;
     height: auto;
-    color: #444;
     margin-bottom:80px;
 }
 .screen3 h2{
