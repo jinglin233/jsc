@@ -33,4 +33,16 @@ body{
 .screen3 .screen3-bg2 a{
     text-decoration: none;
     cursor: pointer;
+    color: #7594b3;
+    font-size:20px;
+    margin:10px 0;
+}
+.screen3 .screen3-bg2 .special{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.screen3 .screen3-bg2 .special li{
+    width: 400px;
 }
