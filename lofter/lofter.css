@@ -2,6 +2,71 @@ body{
      margin: 0;
      padding: 0;
  }
+
+.box1{
+    width:100%;
+    height: 240px;
+    text-align: center ;
+}
+.box1 h2{
+    padding: 42px 0 10px;
+    font-size: 46px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 36px;
+}
+.box1 p{
+    padding: 0 0 69px;
+    font-size: 18px;
+    line-height: 36px;
+}
+.screen2-bg {
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+    background: url("http://l.bst.126.net/rsc/img/loginopen/201406/appstore/dashboard.jpg?v=002") no-repeat center top;
+    background-size: cover ;
+}
+.screen2-icon{
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.icon1{
+    height: 300px;
+    width: 480px;
+    padding-top: 40px;
+}
+.icon1 h3{
+    text-align: center ;
+    font-size: 30px;
+}
+.icon1 p{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+}
+.icon {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+.icona {
+    background: url(http://l.bst.126.net/rsc/img/loginopen/201406/icon.png?v=001) no-repeat 0 0;
+}
+
+.screen2-B-bg{
+    height: 630px;
+    background: url("/jsc/images/quanzi.jpg") no-repeat center top;
+    background-size: cover ;
+}
+.srceen2-B{
+    background-color: #ededef;
+}
 .screen3 .screen3-bg1,.screen3-bg2{
     display: flex;
     flex-flow: column;
