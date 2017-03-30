@@ -1,28 +1,100 @@
 body{
      margin: 0;
      padding: 0;
+    color: #444;
  }
+
+.box1{
+    width:100%;
+    height: 240px;
+    text-align: center ;
+}
+.box1 h2{
+    padding: 42px 0 10px;
+    font-size: 46px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 36px;
+}
+.box1 p{
+    padding: 0 0 69px;
+    font-size: 18px;
+    line-height: 36px;
+}
+.screen2-bg {
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+    background: url("http://l.bst.126.net/rsc/img/loginopen/201406/appstore/dashboard.jpg?v=002") no-repeat center top;
+    background-size: cover ;
+}
+.screen2-icon{
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.icon1{
+    height: 300px;
+    width: 480px;
+    padding-top: 40px;
+}
+.icon1 h3{
+    text-align: center ;
+    font-size: 30px;
+    font-weight:normal;
+}
+.icon1 p{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+}
+.icon {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+.icona {
+    background: url(http://l.bst.126.net/rsc/img/loginopen/201406/icon.png?v=001) no-repeat 0 0;
+}
+
+.screen2-B-bg{
+    height: 630px;
+    background: url("/jsc/images/lofter/quanzi.jpg") no-repeat center top;
+    background-size: cover ;
+}
+.srceen2-B{
+    background-color: #ededef;
+}
 .screen3 .screen3-bg1,.screen3-bg2{
     display: flex;
     flex-flow: column;
     align-items: center;
     width: 100%;
     height: auto;
-    color: #444;
     margin-bottom:80px;
 }
-.screen3 .screen3-bg1,.screen3-bg2 h2{
+.screen3 h2{
     padding: 72px 0 16px;
     font-size:46px;
+    font-weight:normal;
     letter-spacing: 2px;
     line-height: 56px;
+}
+.screen3 h3{
+    font-size:28px;
+    font-weight:normal;
+    text-align: center;
 }
 .screen3 .screen3-bg1 img{
     margin-top: 20px;
 }
-.screen3 .screen3-bg1,.screen3-bg2 p{
+.screen3 .screen3-bg1 p{
     line-height:36px;
-    text-align: center;
+    text-align: left;
     font-size:18px;
 }
 .screen3 .screen3-bg2{
@@ -44,6 +116,27 @@ body{
     flex-flow: row wrap;
 }
 .screen3 .screen3-bg2 .special li{
-    width: 400px;
+    width: 350px;
+    margin: 30px 5px;
     display: flex;
+    flex-flow: column;
+
+}
+.screen3 .screen3-bg2 .special li i{
+    margin: 0 auto;
+}
+.screen3 .screen3-bg2 .special li p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+}
+.screen3-icon1{
+    width:92px;
+    height:90px;
+    background:url("./image/icon-screen3.png") no-repeat -103px 0;
+}
+.screen3-icon2{
+    width:92px;
+    height:90px;
+    background:url("./image/icon-screen3.png") no-repeat 0 0;
 }
