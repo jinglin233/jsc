@@ -90,7 +90,16 @@ body{
     text-align: center;
 }
 .screen3 .screen3-bg1 img{
-    margin-top: 20px;
+    float: left;
+    margin: 20px;
+}
+.carousel{
+    transition: width 0.5s;
+}
+.screen3 .carousel-container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
 }
 .screen3 .screen3-bg1 p{
     line-height:36px;
@@ -120,7 +129,6 @@ body{
     margin: 30px 5px;
     display: flex;
     flex-flow: column;
-
 }
 .screen3 .screen3-bg2 .special li i{
     margin: 0 auto;
