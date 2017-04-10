@@ -107,9 +107,24 @@ a {
     text-align: center;
 }
 
+
 .screen3 .screen3-bg1 img {
     margin-top: 20px;
 }
+
+.screen3 .screen3-bg1 img{
+    float: left;
+    margin: 20px;
+}
+.carousel{
+    transition: width 0.5s;
+}
+.screen3 .carousel-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
 
 .screen3 .screen3-bg1 p {
     line-height: 36px;
@@ -143,7 +158,6 @@ a {
     margin: 30px 5px;
     display: flex;
     flex-flow: column;
-
 }
 
 .screen3 .screen3-bg2 .special li i {
