@@ -7,7 +7,8 @@ var carouselBox=document.querySelector(".carousel-container");
 function onclick() {
 	for(var i=0;i<carouselIndex;i++){
 		carousels[i].addEventListener("onclick",function () {
-			var cW=carouselBox.clientLeft+carousels[i].clientWidth;
+			var subLeft=carouselBox.clientLeft+carousels[i].clientWidth;
+			carouselBox.style.width=subLeft+"px";
 		});
 	}
 }
